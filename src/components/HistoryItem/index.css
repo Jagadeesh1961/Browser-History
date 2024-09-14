@@ -1,0 +1,93 @@
+.list-item {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
+
+.logo-title-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-title-container {
+    width: 85%;
+    padding-left: 40px;
+  }
+}
+
+.timeAccessed {
+  color: #475569;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .timeAccessed {
+    margin-top: 0;
+    align-self: flex-start;
+    font-size: 16px;
+  }
+}
+
+.logo {
+  width: 30px;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+.title {
+  color: #475569;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.domain-url {
+  margin-top: 0;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-url {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+.title-domain-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .title-domain-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  align-self: flex-start;
+  cursor: pointer;
+}
